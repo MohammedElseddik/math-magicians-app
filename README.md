@@ -1,65 +1,78 @@
-# React and Redux
+# Math magicians
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-## Set-up GitHub Actions
+- Make simple calculations.
+- Read a random math-related quote.
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style issues.
+## Deployment
 
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+(Link will be provided after finishing the project)
 
-[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+## Major Languages
 
-Please do the following **steps in this order**:
+- HTML
+- CSS
+- JavaScript
+- React JS
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+## Getting Started
 
-![gh actions checks](../assets/images/gh-actions-eslint-stylelint-checks.png)
+To get a local copy up and running follow these simple example steps.
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+### Setup
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+To get a local copy up and running follow these simple steps.
 
-## Set-up linters in your local env
+To setup the Awesome-books-Project, in the repo page:
+click on code (dropdown list) > Download as ZIP;
+or open terminal of path you want to install project and run this command <br>
 
-### ESLint
+```sh
+  git clone git@github.com:MohammedElseddik/math-magicians.git
+```
 
-1. Run 
-    ```
-    npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-    ```
-    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint .` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+## 🛠 Installation & Set Up to run the project locally
 
-### Stylelint
+1. Install Node Modules
 
-1. Run
-
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+   ```sh
+   npm install
    ```
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+2. Start the development server
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+   ```sh
+   npm start
+   ```
 
-## Test/Deployment Actions
+the project will be opened in [http://localhost:3000] on the browser.
 
-Feel free to add your own deployment actions which can run your tests and deploy to Heroku.
+## Authors
 
-Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) but that you create a separe GitHub Action workflow file for that.
+👤 **Mohammed Elseddik Rebbouh**
+
+- GitHub: [@githubhandle](https://github.com/MohammedElseddik)
+- Twitter: [@twitterhandle](https://twitter.com/RebbouhElseddik)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammed-elseddik-rebbouh-676500192)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/MohammedElseddik/math-magicians/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- My coding partners
+- Hat tip to anyone whose code was used.
+- Microverse team.
+- My standup team.
+
+## 📝 License
+
+This project is [MIT](/MIT.md) licensed.
