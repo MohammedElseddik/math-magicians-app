@@ -1,4 +1,4 @@
-import './Quote.css';
+//import './Quote.css';
 
 const Quote = () => (
   <section className="quote">
