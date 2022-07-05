@@ -9,8 +9,8 @@ function Calculator() {
   };
 
   return (
-    <React.Fragment>
-      <h2 className="heading">Let's do some math!</h2>
+    <>
+      <h2 className="heading">Let&apos;s do some math!</h2>
       <div className="clac-container">
         <div className="result">{state.next || state.total || 0}</div>
         <button type="button" className="btn" onClick={handleClick}>
@@ -71,7 +71,7 @@ function Calculator() {
           =
         </button>
       </div>
-    </React.Fragment>
+    </>
   );
 }
 
