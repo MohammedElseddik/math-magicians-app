@@ -8,6 +8,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 ## Deployment
 
 https://react-math-magicians-app.herokuapp.com/home
+https://62c70ac628fcb50b5eb3280e--jade-biscotti-3d4f8b.netlify.app/
 
 ## Major Languages
 
